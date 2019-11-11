@@ -21,16 +21,16 @@ For example, assume that N = 4, firstWeek = {1,2,3,4}, and lastWeek = {4,3,2,1} 
 Given firstWeek, lastWeek and D, compute and return the smallest number of weeks the mission could have taken.  
 
 # Definition
-Class: ANewHope  
-Method: count  
-Parameters: int[], int[], int  
-Returns: int  
-Method signature: int count(int[] firstWeek, int[] lastWeek, int D)  
-(be sure your method is public)
+* Class: ANewHope
+* Method: count  
+* Parameters: int[], int[], int  
+* Returns: int  
+* Method signature: int count(int[] firstWeek, int[] lastWeek, int D)  
+    (be sure your method is public)
 
 # Limits
-Time limit (s): 2.000  
-Memory limit (MB): 256  
+* Time limit (s): 2.000
+* Memory limit (MB): 256
 
 # Notes
 - N can be calculated as the number of elements of firstWeek
@@ -42,20 +42,20 @@ Memory limit (MB): 256
 - D will be between 1 and N-1 inclusive.
 
 # Examples
-0)  
-{1,2,3,4}  
-{4,3,2,1}  
-3  
-Returns: 4  
-The example from the problem statement.  
-1)  
-{8,5,4,1,7,6,3,2}  
-{2,4,6,8,1,3,5,7}  
-3  
-Returns: 3  
-2)  
-{1,2,3,4}  
-{1,2,3,4}  
-2  
-Returns: 1  
+0) 　  
+    {1,2,3,4}  
+    {4,3,2,1}  
+    3  
+    Returns: 4  
+    The example from the problem statement.  
+1) 　  
+    {8,5,4,1,7,6,3,2}  
+    {2,4,6,8,1,3,5,7}  
+    3  
+    Returns: 3  
+2) 　  
+    {1,2,3,4}  
+    {1,2,3,4}  
+    2  
+    Returns: 1  
 Be careful, the first week and the last week can be the same week.
