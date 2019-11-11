@@ -42,20 +42,20 @@ Memory limit (MB): 256
 - D will be between 1 and N-1 inclusive.
 
 # Examples
-0)
-{1,2,3,4}
-{4,3,2,1}
-3
-Returns: 4
-The example from the problem statement.
-1)
-{8,5,4,1,7,6,3,2}
-{2,4,6,8,1,3,5,7}
-3
-Returns: 3
-2)
-{1,2,3,4}
-{1,2,3,4}
-2
-Returns: 1
+0)  
+{1,2,3,4}  
+{4,3,2,1}  
+3  
+Returns: 4  
+The example from the problem statement.  
+1)  
+{8,5,4,1,7,6,3,2}  
+{2,4,6,8,1,3,5,7}  
+3  
+Returns: 3  
+2)  
+{1,2,3,4}  
+{1,2,3,4}  
+2  
+Returns: 1  
 Be careful, the first week and the last week can be the same week.
