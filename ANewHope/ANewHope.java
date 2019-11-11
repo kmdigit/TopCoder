@@ -4,7 +4,6 @@ public class ANewHope {
     public static int count(int[] fs, int[] ls, int d) {
         if (Arrays.equals(fs, ls)) return 1;
         int n = fs.length;
-        boolean same = true;
         int[] as = new int[n], bs = new int[n];
         for(int i = 0; i<n; i++) {
             as[fs[i]-1] = i;
