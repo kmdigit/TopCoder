@@ -24,22 +24,22 @@ If users is empty, then a zero-length ("") should be returned.
 
 # Example
 0) 　  
-    {0,1,2,3,4,5}
-    2
-    Returns: "DDAAAA"
+    {0,1,2,3,4,5}  
+    2  
+    Returns: "DDAAAA"  
     Here, the first two users don't have sufficient privileges, but the remainder do.
 1) 　  
-    {5,3,2,10,0}
-    20
-    Returns: "DDDDD"
+    {5,3,2,10,0}  
+    20  
+    Returns: "DDDDD"  
     Unfortunately, nobody has sufficient access.
 2) 　  
-    {}
-    20
-    Returns: ""
+    {}  
+    20  
+    Returns: ""  
     It makes no difference what permission is required, since there are no users to check.
 3) 　  
-    {34,78,9,52,11,1}
-    49
-    Returns: "DADADD"
+    {34,78,9,52,11,1}  
+    49  
+    Returns: "DADADD"  
 This problem statement is the exclusive and proprietary property of TopCoder, Inc. Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited. (c)2003, TopCoder, Inc. All rights reserved.
