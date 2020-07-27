@@ -1,1 +1,1 @@
-![./BOJ.png](BOJ )
+![./BOJ.jpg](BOJ )
